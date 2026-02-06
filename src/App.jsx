@@ -22,7 +22,7 @@ function App() {
   const [selectedImage, setSelectedImage] = useState(null);
 
   // WhatsApp Configuration
-  const whatsappNumber = "+573000000000"; // Replace with actual number
+  const whatsappNumber = "+573172989227"; // Replace with actual number
   const whatsappMessage = encodeURIComponent("Hola, vengo de la web. Me gustaría comprar Té Matcha Ceremony.");
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
 
